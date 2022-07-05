@@ -14,15 +14,13 @@ btn.forEach((item, index) => {
       
       
       
-    item.addEventListener('click', ()=>{
-    item.classList.add('toBuyCompleted');
+item.addEventListener('click', ()=>{
+item.classList.add('toBuyCompleted');
 })
   
 item.addEventListener('dblclick', ()=>{
-    toBuyContainer.removeChild(item);
+toBuyContainer[index].removeChild(item);
     
 })  
-    })   
-      
-      
-    
+})  
+  })  
