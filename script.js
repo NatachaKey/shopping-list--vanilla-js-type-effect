@@ -4,8 +4,8 @@ const toBuyContainer = document.querySelectorAll('.toBuyContainer');
 
 
 btn.forEach((item, index) => {
-   
-    item.addEventListener("click", () => {
+  
+  item.addEventListener("click", () => {
       
     const item= document.createElement('li');
     item.innerText=inputField[index].value;
