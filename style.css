@@ -13,27 +13,29 @@ body{
     font-family: 'Signika Negative', sans-serif;
 }
 .toBuyAdded {
-background: #FF5677;
+background: #FF869E;
 font-family: 'Signika Negative', sans-serif;
 list-style-type: none;
-height: 30px;
-width: 33%;
+overflow:hidden;
+width: 30%;
 text-align: center;
 color: black;
 font-size: 18px;
-border-bottom: 1px solid white;
+border-bottom: 1px solid #fff;
 }
+
+#FF5677;
+
 h1{
-    color: black;
+    color: #42032C;
     font-family: 'Signika Negative', sans-serif;
 }
 
 h3{
-    color: rgb(22, 8, 100);
+  color: #003865;
     font-family: 'Signika Negative', sans-serif;
 }
-
-
+  
 .btn{
     padding: 10px;
     background: rgb(157, 223, 157);
