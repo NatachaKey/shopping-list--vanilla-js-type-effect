@@ -23,7 +23,12 @@ color: black;
 font-size: 18px;
 border-bottom: 1px solid white;
 }
-h1,h3{
+h1{
+    color: black;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+h3{
     color: rgb(22, 8, 100);
     font-family: 'Signika Negative', sans-serif;
 }
