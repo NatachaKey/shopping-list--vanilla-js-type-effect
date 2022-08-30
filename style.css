@@ -8,12 +8,14 @@ body{
 
 .inputField{
     padding: 10px;
+    font-size:15px;
     width: 30%;
     border: none;
     font-family: 'Signika Negative', sans-serif;
 }
 .toBuyAdded {
 background: #FF869E;
+  padding: 5px;
 font-family: 'Signika Negative', sans-serif;
 list-style-type: none;
 overflow:hidden;
@@ -24,16 +26,18 @@ font-size: 18px;
 border-bottom: 1px solid #fff;
 }
 
-#FF5677;
+
 
 h1{
     color: #42032C;
     font-family: 'Signika Negative', sans-serif;
+  font-size:30px;
 }
 
 h3{
   color: #003865;
     font-family: 'Signika Negative', sans-serif;
+  font-size:20px;
 }
   
 .btn{
