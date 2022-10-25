@@ -2,10 +2,10 @@ gsap.to("h1", {
   text:"Mi lista de compra 🛍️",
   duration:2,
   ease:"power1.in" 
-})
+});
 
-gsap.from(".smallHeader", {x: -200, delay:3,opacity:0, duration:3})
-gsap.from(".container", {x: 200, delay:3,opacity:0, duration:3})
+gsap.from(".smallHeader", {x: -200, delay:3,opacity:0, duration:3});
+gsap.from(".container", {x: 200, delay:3,opacity:0, duration:3});
 
 
 const inputField = document.querySelectorAll('.inputField');
@@ -25,7 +25,7 @@ inputField.forEach((item,index)=>{
     item.classList.add('toBuyAdded');
     inputField[index].value='';
       
-     item.addEventListener('click', ()=>{
+    item.addEventListener('click', ()=>{
     item.classList.add('toBuyCompleted');
     })
   

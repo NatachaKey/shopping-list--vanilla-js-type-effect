@@ -1,61 +1,53 @@
 body{
-    background-image: linear-gradient( 109.6deg,  rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
-  background-color:rgba(156,252,248,1);
-    }
-    .header,.smallHeader, .container {
-    display: flex;
-    justify-content: center;
+     background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+     background-color:rgba(156,252,248,1);
 }
-
-.inputField{
-    padding: 10px;
-    font-size:15px;
-    width: 30%;
-    border: none;
-    font-family: 'Signika Negative', sans-serif;
+ .header,.smallHeader, .container {
+     display: flex;
+     justify-content: center;
 }
-.toBuyAdded {
-background: #FF869E;
-  padding: 5px;
-font-family: 'Signika Negative', sans-serif;
-list-style-type: none;
-overflow:hidden;
-width: 30%;
-text-align: center;
-color: black;
-font-size: 18px;
-border-bottom: 1px solid #fff;
+ .inputField{
+     padding: 10px;
+     font-size:15px;
+     width: 30%;
+     border: none;
+     font-family: 'Signika Negative', sans-serif;
 }
-
-
-
-h1{
-    color: #16213E;
-    font-family: 'Signika Negative', sans-serif;
-  font-size:30px;
+ .toBuyAdded {
+     background: #FF869E;
+     padding: 5px;
+     font-family: 'Signika Negative', sans-serif;
+     list-style-type: none;
+     overflow:hidden;
+     width: 30%;
+     text-align: center;
+     color: black;
+     font-size: 18px;
+     border-bottom: 1px solid #fff;
 }
-
-h3{
-  color: #003865;
-    font-family: 'Signika Negative', sans-serif;
-  font-size:20px;
+ h1{
+     color: #16213E;
+     font-family: 'Signika Negative', sans-serif;
+     font-size:30px;
 }
-  
-.btn{
-    padding: 10px;
-    background: rgb(157, 223, 157);
-    border: none;
+ h3{
+     color: #003865;
+     font-family: 'Signika Negative', sans-serif;
+     font-size:20px;
 }
-
-.toBuyContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+ .btn{
+     padding: 10px;
+     background: rgb(157, 223, 157);
+     border: none;
 }
-
-.toBuyCompleted{
-    background:rgb(191, 247, 191);
-    font-weight: bold;
-    text-decoration: line-through;
-    transition: all 1s ease;
+ .toBuyContainer{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+ .toBuyCompleted{
+     background:rgb(191, 247, 191);
+     font-weight: bold;
+     text-decoration: line-through;
+     transition: all 1s ease;
 }
